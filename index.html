@@ -1,0 +1,607 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ruchi's Portfolio</title>
+
+    <!-- Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Quicksand:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Custom Cursor Elements -->
+    <div class="cursor-outer"></div>
+    <div class="cursor-inner"></div>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+      <div class="nav-brand">
+        <span class="logo">R</span>
+      </div>
+      <div class="nav-links">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Home Section -->
+      <section id="home" class="home-page">
+        <!-- Floating Background Elements -->
+        <div class="floating-elements">
+          <div class="element element-1"></div>
+          <div class="element element-2"></div>
+          <div class="element element-3"></div>
+          <div class="element element-4"></div>
+        </div>
+
+        <!-- Hero Section -->
+        <section class="hero">
+          <div class="hero-content">
+            <h1 class="hero-title">
+              <span class="greeting">Hello, I'm</span>
+              <span class="name">Ruchi</span>
+            </h1>
+            <p class="hero-subtitle">
+              Full Stack Web Developer || DSA Enthusiast || AI/ML Enthusiast
+            </p>
+            <div class="cta-buttons">
+              <a href="#projects" class="btn primary-btn">View My Work</a>
+              <a
+                href="./assets/Updated SDE Resume.pdf"
+                class="btn secondary-btn"
+                >Resume</a
+              >
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about-section">
+        <div class="about-container">
+          <!-- Left Column - Image -->
+          <div class="about-image-container">
+            <div class="profile-image">
+              <img
+                src="./assets/me.jpg"
+                alt="Ruchi Chaudhary"
+                class="profile-pic"
+              />
+              <div class="image-border"></div>
+            </div>
+          </div>
+
+          <!-- Right Column - Content -->
+          <div class="about-content">
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about-text">
+              <p class="introduction">
+                Hi, I'm <span class="highlight">Ruchi!</span> A passionate
+                Full-Stack & AI Developer who loves building scalable backend
+                systems, clean APIs, and intuitive user experiences. I work
+                across modern web technologies—blending performance,
+                architecture, and thoughtful UI/UX to ship production-ready
+                products.
+              </p>
+
+              <p class="fun-fact">
+                <span class="highlight">Fun Fact:</span> When I'm not coding, I
+                enjoy exploring new AI tools, system design patterns, and smooth
+                UI animations ✨
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section id="education" class="education-section">
+        <div class="education-container">
+          <h2 class="section-title">Education</h2>
+
+          <div class="timeline">
+            <!-- B.Tech Entry -->
+            <div class="timeline-item">
+              <div class="timeline-dot">🎓</div>
+              <div class="timeline-content">
+                <div class="timeline-card">
+                  <div class="card-header">
+                    <span class="education-icon">🏫</span>
+                    <h3>B.Tech in Computer Science (AI)</h3>
+                    <span class="year">2021 - 2025</span>
+                  </div>
+                  <div class="institution">
+                    <span class="institution-icon">📍</span>
+                    IIMT College of Engineering, Greater Noida
+                  </div>
+                  <p class="description">
+                    Currently pursuing my Bachelor's degree in Computer Science
+                    (AI), where I have honed my skills in Full Stack
+                    Development, Data Structures, Algorithms, and AI/ML.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Class 12 Entry -->
+            <div class="timeline-item">
+              <div class="timeline-dot">🎓</div>
+              <div class="timeline-content">
+                <div class="timeline-card">
+                  <div class="card-header">
+                    <span class="education-icon">🏫</span>
+                    <h3>Senior Secondary (Class 12)</h3>
+                    <span class="year">2020 - 2021</span>
+                  </div>
+                  <div class="institution">
+                    <span class="institution-icon">📍</span>
+                    Vishal International School, Noida
+                  </div>
+                  <p class="description">
+                    Completed my 12th with 85%, focusing on Computer Science and
+                    Mathematics.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Class 10 Entry -->
+            <div class="timeline-item">
+              <div class="timeline-dot">🎓</div>
+              <div class="timeline-content">
+                <div class="timeline-card">
+                  <div class="card-header">
+                    <span class="education-icon">🏫</span>
+                    <h3>Secondary (Class 10)</h3>
+                    <span class="year">2018 - 2019</span>
+                  </div>
+                  <div class="institution">
+                    <span class="institution-icon">📍</span>
+                    Vishal International School, Noida
+                  </div>
+                  <p class="description">
+                    Completed my 10th with 83%, laying a strong foundation in
+                    analytical and problem-solving skills.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="projects-section">
+        <div class="projects-container">
+          <h2 class="section-title">Projects</h2>
+
+          <div class="projects-grid">
+            <!-- Hirred Project -->
+            <div class="project-card">
+              <div class="project-image">
+                <img
+                  src="./assets/Job-Portal SS.png"
+                  alt="Hirred - Job Portal"
+                />
+                <div class="image-overlay"></div>
+              </div>
+              <div class="card-content">
+                <div class="project-header">
+                  <h3>Hirred</h3>
+                  <span class="project-type">Job Portal</span>
+                </div>
+
+                <div class="tech-stack">
+                  <span class="tech-label">Tech Stack:</span>
+                  <div class="tech-items">
+                    <span class="tech-item">React</span>
+                    <span class="tech-item">Material UI</span>
+                    <span class="tech-item">Shadcn UI</span>
+                    <span class="tech-item">SupaBase</span>
+                    <span class="tech-item">Clerk</span>
+                  </div>
+                </div>
+
+                <p class="project-description">
+                  Developed a job portal that enables users to browse, apply for
+                  jobs, and manage applications efficiently.
+                </p>
+
+                <div class="project-links">
+                  <a
+                    href="https://pro-hire.vercel.app/"
+                    class="project-link demo-link"
+                  >
+                    <span class="link-icon">🔗</span>
+                    Live Demo
+                  </a>
+                  <a
+                    href="https://github.com/Ruchi2002/CodeVertex/tree/master/CodeVertex-JobPortal"
+                    class="project-link github-link"
+                  >
+                    <span class="link-icon">💻</span>
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Fanta Project -->
+            <div class="project-card">
+              <div class="project-image">
+                <img src="./assets/Fanta.png" alt="Fanta Website" />
+                <div class="image-overlay"></div>
+              </div>
+              <div class="card-content">
+                <div class="project-header">
+                  <h3>Fanta</h3>
+                  <span class="project-type">Animated Website</span>
+                </div>
+
+                <div class="tech-stack">
+                  <span class="tech-label">Tech Stack:</span>
+                  <div class="tech-items">
+                    <span class="tech-item">HTML</span>
+                    <span class="tech-item">CSS</span>
+                    <span class="tech-item">GSAP</span>
+                    <span class="tech-item">ScrollMagic</span>
+                  </div>
+                </div>
+
+                <p class="project-description">
+                  Built a visually engaging website for Fanta, featuring dynamic
+                  animations using GSAP and ScrollMagic.
+                </p>
+
+                <div class="project-links">
+                  <a
+                    href="https://fantaweb.netlify.app/"
+                    class="project-link demo-link"
+                  >
+                    <span class="link-icon">🔗</span>
+                    Live Demo
+                  </a>
+                  <a
+                    href="https://github.com/Ruchi2002/Fanta-animated-web"
+                    class="project-link github-link"
+                  >
+                    <span class="link-icon">💻</span>
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Air Quality Analysis Project -->
+            <div class="project-card">
+              <div class="project-image">
+                <img
+                  src="./assets/AQI.png"
+                  alt="Air Quality Analysis Dashboard"
+                />
+                <div class="image-overlay"></div>
+              </div>
+              <div class="card-content">
+                <div class="project-header">
+                  <h3>Air Quality Analysis</h3>
+                  <span class="project-type">Data Analysis</span>
+                </div>
+
+                <div class="tech-stack">
+                  <span class="tech-label">Tech Stack:</span>
+                  <div class="tech-items">
+                    <span class="tech-item">Python</span>
+                    <span class="tech-item">Power BI</span>
+                  </div>
+                </div>
+
+                <p class="project-description">
+                  Developed an AQI analysis tool using Python and Power BI,
+                  providing interactive dashboards for air quality insights.
+                </p>
+
+                <div class="project-links">
+                  <a href="#" class="project-link github-link">
+                    <span class="link-icon">💻</span>
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- Text-to-Image Generator Project -->
+            <div class="project-card">
+              <div class="project-image">
+                <img src="./assets/TTI.png" alt="Text to Image Generator" />
+                <div class="image-overlay"></div>
+              </div>
+              <div class="card-content">
+                <div class="project-header">
+                  <h3>Text-to-Image Generator</h3>
+                  <span class="project-type">AI / Deep Learning</span>
+                </div>
+
+                <div class="tech-stack">
+                  <span class="tech-label">Tech Stack:</span>
+                  <div class="tech-items">
+                    <span class="tech-item">Python</span>
+                    <span class="tech-item">PyTorch</span>
+                    <span class="tech-item">Diffusers</span>
+                    <span class="tech-item">Gradio</span>
+                    <span class="tech-item">CSS</span>
+                  </div>
+                </div>
+
+                <p class="project-description">
+                  Built an AI-powered text-to-image generator using Stable
+                  Diffusion SSD-1B model with a custom Gradio UI. Users can
+                  input prompts and generate stunning images with adjustable
+                  negative prompts.
+                </p>
+
+                <div class="project-links">
+                  <a
+                    href="https://your-live-demo-link.com"
+                    class="project-link demo-link"
+                  >
+                    <span class="link-icon">🔗</span>
+                    Live Demo
+                  </a>
+                  <a
+                    href="https://github.com/Ruchi2002/Text-To-Image-Generation-using-Gradio-And-SSD-1B-Model-Using-SSB"
+                    class="project-link github-link"
+                  >
+                    <span class="link-icon">💻</span>
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="skills-section">
+        <div class="skills-container">
+          <h2 class="section-title">My Tech Stack</h2>
+          <p class="section-intro">
+            Here are the technologies and tools I use to bring ideas to life.
+          </p>
+
+          <div class="skills-carousel-container">
+            <!-- First Carousel (Original) -->
+            <div class="skills-carousel">
+              <!-- Frontend -->
+              <div class="skill-item" data-category="Frontend">
+                <img src="./assets/HTML.png" alt="HTML" class="skill-logo" />
+                <span class="skill-name">HTML</span>
+              </div>
+              <div class="skill-item" data-category="Frontend">
+                <img
+                  src="https://www.bing.com/th/id/OIP.DxNBSjGwKYkE-p6mDkxgTgHaEK?w=276&h=211&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
+                  alt="CSS"
+                  class="skill-logo"
+                />
+                <span class="skill-name">CSS</span>
+              </div>
+              <div class="skill-item" data-category="Frontend">
+                <img
+                  src="./assets/JS.png"
+                  alt="JavaScript"
+                  class="skill-logo"
+                />
+                <span class="skill-name">JavaScript</span>
+              </div>
+              <div class="skill-item" data-category="Frontend">
+                <img
+                  src="./assets/React.js.png"
+                  alt="React"
+                  class="skill-logo"
+                />
+                <span class="skill-name">React</span>
+              </div>
+              <div class="skill-item" data-category="Frontend">
+                <img
+                  src="https://images.prismic.io/toyfight/65e1e07d27237c2bb829b9dc_GSAP-Meta-image.jpg?auto=format%2Ccompress&rect=0%2C0%2C2400%2C1260&w=2400&h=1260"
+                  alt="GSAP"
+                  class="skill-logo"
+                />
+                <span class="skill-name">GSAP</span>
+              </div>
+              <div class="skill-item" data-category="Frontend">
+                <img
+                  src="https://th.bing.com/th/id/OIP.qkTqt1oXnZg3ZETl2FTYGgHaHa?w=173&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+                  alt="Tailwind CSS"
+                  class="skill-logo"
+                />
+                <span class="skill-name">Tailwind CSS</span>
+              </div>
+              <div class="skill-item" data-category="Frontend">
+                <img
+                  src="https://img.freepik.com/premium-vector/bootstrap-icon-b-letter-logo_781017-7.jpg?w=740"
+                  alt="Bootstrap"
+                  class="skill-logo"
+                />
+                <span class="skill-name">Bootstrap</span>
+              </div>
+
+              <!-- Backend -->
+              <div class="skill-item" data-category="Backend">
+                <img
+                  src="https://icon.icepanel.io/Technology/svg/Node.js.svg"
+                  alt="Node.js"
+                  class="skill-logo"
+                />
+                <span class="skill-name">Node.js</span>
+              </div>
+              <div class="skill-item" data-category="Backend">
+                <img
+                  src="https://icon.icepanel.io/Technology/png-shadow-512/Express.png"
+                  alt="Express.js"
+                  class="skill-logo"
+                />
+                <span class="skill-name">Express.js</span>
+              </div>
+
+              <!-- Databases -->
+              <div class="skill-item" data-category="Databases">
+                <img
+                  src="https://icon.icepanel.io/Technology/svg/MySQL.svg"
+                  alt="MySQL"
+                  class="skill-logo"
+                />
+                <span class="skill-name">MySQL</span>
+              </div>
+              <div class="skill-item" data-category="Databases">
+                <img
+                  src="https://icon.icepanel.io/Technology/svg/MongoDB.svg"
+                  alt="MongoDB"
+                  class="skill-logo"
+                />
+                <span class="skill-name">MongoDB</span>
+              </div>
+              <div class="skill-item" data-category="Databases">
+                <img
+                  src="https://www.vectorlogo.zone/logos/supabase/supabase-ar21~bgwhite.svg"
+                  alt="Supabase"
+                  class="skill-logo"
+                />
+                <span class="skill-name">Supabase</span>
+              </div>
+              <div class="skill-item" data-category="Databases">
+                <img
+                  src="https://icon.icepanel.io/Technology/svg/Firebase.svg"
+                  alt="Firebase"
+                  class="skill-logo"
+                />
+                <span class="skill-name">Firebase</span>
+              </div>
+
+              <!-- Programming Languages -->
+              <div class="skill-item" data-category="Languages">
+                <img
+                  src="https://icon.icepanel.io/Technology/svg/C%2B%2B-%28CPlusPlus%29.svg"
+                  alt="C++"
+                  class="skill-logo"
+                />
+                <span class="skill-name">C++</span>
+              </div>
+              <div class="skill-item" data-category="Languages">
+                <img
+                  src="https://icon.icepanel.io/Technology/svg/Python.svg"
+                  alt="Python"
+                  class="skill-logo"
+                />
+                <span class="skill-name">Python</span>
+              </div>
+
+              <!-- Data Analysis -->
+              <div class="skill-item" data-category="Data">
+                <img
+                  src="https://icon.icepanel.io/Technology/svg/NumPy.svg"
+                  alt="NumPy"
+                  class="skill-logo"
+                />
+                <span class="skill-name">NumPy</span>
+              </div>
+              <div class="skill-item" data-category="Data">
+                <img
+                  src="https://icon.icepanel.io/Technology/png-shadow-512/Pandas.png"
+                  alt="Pandas"
+                  class="skill-logo"
+                />
+                <span class="skill-name">Pandas</span>
+              </div>
+              <div class="skill-item" data-category="Data">
+                <img
+                  src="https://icon.icepanel.io/Technology/svg/Matplotlib.svg"
+                  alt="Matplotlib"
+                  class="skill-logo"
+                />
+                <span class="skill-name">Matplotlib</span>
+              </div>
+            </div>
+
+            <!-- Duplicate Carousel (for infinite scroll effect) -->
+            <div class="skills-carousel" aria-hidden="true">
+              <!-- Same content as above -->
+              <div class="skill-item" data-category="Data">
+                <img
+                  src="./assets/MS Excel.png"
+                  alt="MS Excel"
+                  class="skill-logo"
+                />
+                <span class="skill-name">MS Excel</span>
+              </div>
+
+              <!-- Tools -->
+              <div class="skill-item" data-category="Tools">
+                <img src="path-to-git-logo.png" alt="Git" class="skill-logo" />
+                <span class="skill-name">Git</span>
+              </div>
+              <div class="skill-item" data-category="Tools">
+                <img
+                  src="path-to-github-logo.png"
+                  alt="GitHub"
+                  class="skill-logo"
+                />
+                <span class="skill-name">GitHub</span>
+              </div>
+              <div class="skill-item" data-category="Tools">
+                <img
+                  src="path-to-vscode-logo.png"
+                  alt="VS Code"
+                  class="skill-logo"
+                />
+                <span class="skill-name">VS Code</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Easter Egg Element -->
+      <div class="easter-egg" title="Click me!">✨</div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="social-links">
+        <a href="https://github.com/Ruchi2002" class="social-link">GitHub</a>
+        <a
+          href="https://www.linkedin.com/in/ruchi-302a5a21b/"
+          class="social-link"
+          >LinkedIn</a
+        >
+      </div>
+      <p class="copyright">© 2025. Made with ✨</p>
+    </footer>
+
+    <!-- GSAP Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+    <!-- Main Scripts -->
+    <script src="./main.js"></script>
+  </body>
+</html>
